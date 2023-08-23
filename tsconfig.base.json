@@ -1,0 +1,23 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2020", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@lint-problem/ng-buildable": ["libs/ng-buildable/src/index.ts"],
+      "@lint-problem/ng-non-buildable": ["libs/ng-non-buildable/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
